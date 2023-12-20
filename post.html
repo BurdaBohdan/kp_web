@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TeamApp</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body style="background-color: #F5F5F5;">
+    <div class="page_wrapper">
+        <header class="header secondary">
+            <a href="index.html"><img class="header_logo" src="images/logo_dk.webp" alt="Logo"></a>
+            <nav class="header_nav dark">
+                <a href="index.html" class="header_item">Про нас</a>
+                <a href="blog.html" class="header_item">Наш блог</a>
+                <a href="404.html" class="header_item">Підтримка</a>
+                <a href="#open-modal" class="header_item">Увійти</a>
+                <a href="" class="header_item_btn btn">Отримати доступ</a>
+            </nav>
+        </header>
+
+        <div id="open-modal" class="modal-window">
+            <div class="modal_div">
+                <a href="#" title="Close" class="modal-close">×</a>
+                <h2 class="modal_text">Введіть логін та пароль</h2>
+                <input type="text" placeholder="Login">
+                <input type="password" placeholder="Password">
+                <a href="404.html" class="modal_btn btn">Увійти</a>
+            </div>
+        </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Вверх</button>
+        <section class="post_headline">
+            <h1>Дані, експортовані адміністраторами організацій Team Cloud, містили приватні файли</h1>
+            <div class="blog_card_artist">
+                <img src="images/artist1.webp" alt="">
+                <p class="blog_card_artistname">Cameron Williamson</p>
+                <p class="blog_card_date">July 1, 2023</p>
+            </div>
+            <img class="post_img" src="images/post_img.webp" alt="">
+            <p>Адміністратори організацій Team Cloud можуть експортувати публічні дані зі своєї організації через
+                меню налаштувань організації. Експорт включає всі дані, які з'являються в публічних потоках, і може
+                бути
+                використані
+                для міграції з Team Cloud на власний хостинг Team. Зверніть увагу, що експорт приватних даних - це
+                окремий
+                процес
+                який
+                для цього потрібно звернутися до служби підтримки.<br><br>
+
+                Через помилку в коді експорту публічних даних, експорт публічних даних містив усі завантажені файли,
+                навіть ті, що
+                ті
+                з
+                приватних повідомлень і приватних потоків. Це могло дозволити власникам або адміністраторам організацій
+                витягти
+                завантажені файли, до яких вони не мали доступу в інший спосіб. Вміст непублічних повідомлень
+                був
+                ніколи
+                не включався до публічного експорту.<br><br>
+
+                Ця помилка існувала з моменту впровадження функції публічного експорту в серпні 2019 року. Ми видалили
+                всі
+                існуючі експорти Team Cloud з наших серверів і будемо вносити зміни, щоб автоматично завершувати всі
+                експорти
+                через 7
+                днів у майбутньому. Цю помилку було виправлено для користувачів, які розміщують свої сервери самостійно,
+                у випуску Team Server 5.4.<br><br>
+
+                Ми надіслали повідомлення електронною поштою всім адміністраторам і користувачам у не деактивованих
+                організаціях Team Cloud
+                які
+                могли
+                могли постраждати від цієї помилки. Оскільки багато організацій ніколи не експортували свої дані,
+                більшість користувачів Team
+                Cloud
+                користувачів Team Cloud
+                не постраждали.<br><br>
+
+                Ми хотіли б подякувати Антуану Бенуа за те, що він звернув нашу увагу на цю проблему.</p>
+            <div class="post_author">
+                <img src="images/post_author1.png" alt="">
+                <div class="post_article">
+                    <h4>Написано</h4>
+                    <h3>Mark Brooklyn</h3>
+                    <p>Операційний директор в компанії Team. Автор майбутньої книги про командний менеджмент та
+                        лідерство.</p>
+                </div>
+            </div>
+            <div class="post_comment">
+                <p>Приєднатися до обговорення</p>
+                <div class="post_comment_block">
+                    <img src="images/post_avatar.webp" alt="">
+                    <textarea class="comment_block" placeholder="Comments" rows="5"></textarea>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer_inner">
+                <div class="footer_logo">
+                    <img src="images/logo.webp" alt="">
+                    <p>Почніть кар'єру в галузі управління проектами</p>
+                </div>
+                <div class="footer_item">
+                    <h3>Компанія</h3>
+                    <a class="footer_link" href="#Product">Про нас</a>
+                    <a class="footer_link" href="blog.html">Наш блог</a>
+                    <a class="footer_link" href="404.html">Підтримка</a>
+                </div>
+                <div class="footer_item">
+                    <h3>Можливості</h3>
+                    <a class="footer_link" href="404.html">Поширення екрану</a>
+                    <a class="footer_link" href="404.html">IOS & Android Додатки</a>
+                    <a class="footer_link" href="404.html">Файл-Менеджмент</a>
+                </div>
+                <div class="footer_item">
+                    <h3>Знайдіть нас</h3>
+                    <p class="footer_text">info@teamapp.com</p>
+                    <p class="footer_text">1-800-200-300</p>
+                    <p class="footer_text">1010 Sunset Blv.
+                        Palo Alto, California</p>
+                </div>
+                <div class="footer_item">
+                    <h3>Будьте в курсі всіх подій</h3>
+                    <p class="footer_text" href="">Підпишіться на наші новини</p>
+                    <div style="flex-direction: column;" class="hero_cta">
+                        <input class="hero_cta_item" type="email" src="images/email_arrow.svg" placeholder="Email">
+                        <a style="height: 47px;" href="" class="hero_button btn">
+                            Отримати Лист
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <p class="footer_copyright">© Copyright Team Inc.</p>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TeamApp</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body style="background-color: #F5F5F5;">
+    <header class="header secondary">
+        <a href="index.html"><img class="header_logo" src="images/logo_dk.webp" alt="Logo"></a>
+        <nav class="header_nav dark">
+            <a href="index.html" class="header_item">Про нас</a>
+            <a href="blog.html" class="header_item">Наш блог</a>
+            <a href="404.html" class="header_item">Підтримка</a>
+            <a href="#open-modal" class="header_item">Увійти</a>
+            <a href="" class="header_item_btn btn">Отримати доступ</a>
+        </nav>
+    </header>
+    <div id="open-modal" class="modal-window">
+        <div class="modal_div">
+            <a href="#" title="Close" class="modal-close">Close</a>
+            <h2 class="modal_text">Введіть логін та пароль</h2>
+            <input type="text" placeholder="Login">
+            <input type="password" placeholder="Password">
+            <a href="#" class="modal_btn btn">Увійти</a>
+        </div>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Вверх</button>
+    <section class="heading dark">
+        <h1>Блог</h1>
+        <p>Інструмент для спілкування та співпраці, який допомагає командам працювати разом ефективніше.</p>
+    </section>
+    <section class="blog_cardrow">
+        <div class="blog_cardrow_inner">
+            <a href="post.html" class="blog_cardrow_item">
+                <img src="images/blog1.webp" alt="">
+                <div class="blog_card_placeholder">
+                    <div class="blog_card_text">
+                        <h3 class="blog_card_name">Дані, експортовані організацією Team Cloud</h3>
+                        <p class="blog_card_descr">Нещодавно внутрішнє розслідування виявило вразливість (ідентифіковану
+                            як CVE-2022-21706) у посиланнях на запрошення Zullp.</p>
+                    </div>
+                    <div class="blog_card_artist">
+                        <img src="images/artist1.webp" alt="">
+                        <p class="artistname">Cameron Williamson</p>
+                        <p class="blog_card_date">July 1, 2023</p>
+                    </div>
+                </div>
+            </a>
+            <a href="post.html" class="blog_cardrow_item">
+                <img src="images/blog2.webp" alt="">
+                <div class="blog_card_placeholder">
+                    <div class="blog_card_text">
+                        <h3 class="blog_card_name">Замініть довгі відеодзвінки та електронні листи на асинхронне відео
+                        </h3>
+                        <p class="blog_card_descr">Відеоконференції є важливими для комунікації та командного духу, але
+                            вони часто неефективні.
+                            Асинхронне відео на допомогу.</p>
+                    </div>
+                    <div class="blog_card_artist">
+                        <img src="images/artist2.webp" alt="">
+                        <p class="artistname">Robert Fox</p>
+                        <p class="blog_card_date">June 21, 2023</p>
+                    </div>
+                </div>
+            </a>
+            <a href="post.html" class="blog_cardrow_item">
+                <img src="images/blog3.webp" alt="">
+                <div class="blog_card_placeholder">
+                    <div class="blog_card_text">
+                        <h3 class="blog_card_name">Зручність панує: шість ключових висновків з Frontiers 2023</h3>
+                        <p class="blog_card_descr">Майбутнє роботи – це мати цифрову штаб-квартиру, яка працює для вас.
+                        </p>
+                    </div>
+                    <div class="blog_card_artist">
+                        <img src="images/artist3.webp" alt="">
+                        <p class="artistname">Jenny Wilson</p>
+                        <p class="blog_card_date">June 10, 2023</p>
+                    </div>
+                </div>
+            </a>
+            <a href="post.html" class="blog_cardrow_item">
+                <img src="images/blog4.webp" alt="">
+                <div class="blog_card_placeholder">
+                    <div class="blog_card_text">
+                        <h3 class="blog_card_name">Команда плюс Sales Cloud: Нова цифрова штаб-квартира вашого відділу
+                            продажів</h3>
+                        <p class="blog_card_descr">Чому кожен у вашій команді продажів отримає користь від нашого
+                            додатку-кілера функцій нашого додатку.</p>
+                    </div>
+                    <div class="blog_card_artist">
+                        <img src="images/artist4.webp" alt="">
+                        <p class="artistname">Kathryn Murphy</p>
+                        <p class="blog_card_date">May 11, 2023</p>
+                    </div>
+                </div>
+            </a>
+            <a href="post.html" class="blog_cardrow_item">
+                <img src="images/blog5.webp" alt="">
+                <div class="blog_card_placeholder">
+                    <div class="blog_card_text">
+                        <h3 class="blog_card_name">Що таке цифрова культура?</h3>
+                        <p class="blog_card_descr">Команди, які найкраще підготовлені до змін, використовують сучасні
+                            цифрові комунікаційні інструменти, комфортно навчаються новим і постійно адаптуються до
+                            їхньої роботи.</p>
+                    </div>
+                    <div class="blog_card_artist">
+                        <img src="images/artist5.webp" alt="">
+                        <p class="artistname">Devon Lane</p>
+                        <p class="blog_card_date">May 22, 2023</p>
+                    </div>
+                </div>
+            </a>
+            <a href="post.html" class="blog_cardrow_item">
+                <img src="images/blog6.webp" alt="">
+                <div class="blog_card_placeholder">
+                    <div class="blog_card_text">
+                        <h3 class="blog_card_name">10 найкращих порад Стіва Дотто щодо подолання "гикавки" на робочому
+                            місці</h3>
+                        <p class="blog_card_descr">Виконавчий продюсер Dotto Tech ділиться своїми улюбленими стратегіями
+                            Slack стратегіями для подолання типових викликів на цифровому робочому місці.</p>
+                    </div>
+                    <div class="blog_card_artist">
+                        <img src="images/artist6.webp" alt="">
+                        <p class="artistname">Theresa Webb</p>
+                        <p class="blog_card_date">April 4, 2023</p>
+                    </div>
+                </div>
+            </a>
+            <a href="post.html" class="blog_cardrow_item">
+                <img src="images/blog7.webp" alt="">
+                <div class="blog_card_placeholder">
+                    <div class="blog_card_text">
+                        <h3 class="blog_card_name">Що нового в Team: оновлення для iPad, перегляд у розділеному екрані
+                            та багато іншого</h3>
+                        <p class="blog_card_descr">Внутрішнє розслідування нещодавно виявило вразливість
+                            (ідентифіковану як CVE-2022-21706) в посиланнях на запрошення Zulip.</p>
+                    </div>
+                    <div class="blog_card_artist">
+                        <img src="images/artist7.webp" alt="">
+                        <p class="artistname">Eleanor Pena</p>
+                        <p class="blog_card_date">March 18, 2023</p>
+                    </div>
+                </div>
+            </a>
+            <a href="post.html" class="blog_cardrow_item">
+                <img src="images/blog8.webp" alt="">
+                <div class="blog_card_placeholder">
+                    <div class="blog_card_text">
+                        <h3 class="blog_card_name">Підвищуйте ефективність і скорочуйте витрати за допомогою цих
+                            оновлень у Workflow Builder</h3>
+                        <p class="blog_card_descr">Нові та майбутні функції автоматизації допоможуть вашим командам
+                            робити більше з меншими витратами.
+                        </p>
+                    </div>
+                    <div class="blog_card_artist">
+                        <img src="images/artist8.webp" alt="">
+                        <p class="artistname">Jerome Bell</p>
+                        <p class="blog_card_date">February 12, 2023</p>
+                    </div>
+                </div>
+            </a>
+            <a href="post.html" class="blog_cardrow_item">
+                <img src="images/blog9.webp" alt="">
+                <div class="blog_card_placeholder">
+                    <div class="blog_card_text">
+                        <h3 class="blog_card_name">7 порад, як легко залучити торгових представників до роботи</h3>
+                        <p class="blog_card_descr">Виконавчий продюсер Dotto Tech ділиться своїми улюбленими стратегіями
+                            Slack для подолання типових викликів на цифровому робочому місці.</p>
+                    </div>
+                    <div class="blog_card_artist">
+                        <img src="images/artist9.webp" alt="">
+                        <p class="artistname">Savannah Nguyen</p>
+                        <p class="blog_card_date">January 7, 2023</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+    <div class="blog_nextbtn">
+        <a class="blog_btn btn" href="post.html">Далі</a>
+    </div>
+    <footer class="footer">
+        <div class="footer_inner">
+            <div class="footer_logo">
+                <img src="images/logo.webp" alt="">
+                <p>Почніть кар'єру в галузі управління проектами</p>
+            </div>
+            <div class="footer_item">
+                <h3>Компанія</h3>
+                <a class="footer_link" href="#Product">Про нас</a>
+                <a class="footer_link" href="blog.html">Наш блог</a>
+                <a class="footer_link" href="404.html">Підтримка</a>
+            </div>
+            <div class="footer_item">
+                <h3>Можливості</h3>
+                <a class="footer_link" href="404.html">Поширення екрану</a>
+                <a class="footer_link" href="404.html">IOS & Android Додатки</a>
+                <a class="footer_link" href="404.html">Файл-Менеджмент</a>
+            </div>
+            <div class="footer_item">
+                <h3>Знайдіть нас</h3>
+                <p class="footer_text">info@teamapp.com</p>
+                <p class="footer_text">1-800-200-300</p>
+                <p class="footer_text">1010 Sunset Blv.
+                    Palo Alto, California</p>
+            </div>
+            <div class="footer_item">
+                <h3>Будьте в курсі всіх подій</h3>
+                <p class="footer_text" href="">Підпишіться на наші новини</p>
+                <div style="flex-direction: column;" class="hero_cta">
+                    <input class="hero_cta_item" type="email" src="images/email_arrow.svg" placeholder="Email">
+                    <a style="height: 47px;" href="" class="hero_button btn">
+                        Отримати Лист
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <p class="footer_copyright">© Copyright Team Inc.</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
